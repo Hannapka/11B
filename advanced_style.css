@@ -1,0 +1,22 @@
+#example1 {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
+   border: 2px solid black;
+  padding: 25px;
+  background: url(https://cdn.pixabay.com/photo/2014/04/13/20/49/cat-323262_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  h2 {
+  text-shadow: 2px 2px #FF0000;
+}
+a:hover {
+  color: red;
+  transition-duration: 5s;
+}
+  @media only screen and (max-width: 800px) {
+  body {
+    background-color: black;
+	color: white;
+  }
